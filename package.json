@@ -1,0 +1,26 @@
+{
+  "name": "npmmodules",
+  "version": "1.0.0",
+  "description": "Npm Test Modules by Prem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "assets/deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speedyprem/npmmodules.git"
+  },
+  "keywords": [
+    "Npm",
+    "test",
+    "node",
+    "repo"
+  ],
+  "author": "Prem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/speedyprem/npmmodules/issues"
+  },
+  "homepage": "https://github.com/speedyprem/npmmodules#readme"
+}
