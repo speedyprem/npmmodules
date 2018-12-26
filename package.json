@@ -1,11 +1,11 @@
 {
   "name": "createbranch",
   "version": "1.0.2",
-  "description": "Npm Test Modules by Prem",
+  "description": "npm module to create new branch from master and checkout into new branch",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "assets/deploy"
+    "createbranch": "assets/deploy"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "node",
     "repo"
   ],
-  "author": "Prem",
+  "author": "Prem Tiwari",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/speedyprem/npmmodules/issues"
