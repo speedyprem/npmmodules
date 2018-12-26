@@ -1,6 +1,6 @@
 {
   "name": "@speedyprem/npmmodules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Npm Test Modules by Prem",
   "main": "index.js",
   "scripts": {
