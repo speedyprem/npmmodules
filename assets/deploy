@@ -6,8 +6,12 @@ BRANCH="$1";
 
 git checkout master;
 
-#Creating your branch from master;
-echo "Creating your branch from master";
-git checkout -b $BRANCH;
-
-echo $BRANCH "Branch is created";
+# Create a new branch from master from master if it doesn't exists.
+if [ "`git branch --list ${BRANCH}`" ]; then
+    git checkout -f $BRANCH
+    git clean -fd -f
+    git reset --hard
+else
+    git branch $BRANCH
+    git checkout -f $BRANCH
+fi
