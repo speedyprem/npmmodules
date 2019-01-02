@@ -1,6 +1,6 @@
 {
   "name": "createbranch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "npm module to create new branch from master and checkout into new branch",
   "main": "index.js",
   "scripts": {
