@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/speedyprem/npmmodules/issues"
   },
-  "homepage": "https://github.com/speedyprem/npmmodules#readme"
+  "homepage": "https://github.com/speedyprem/npmmodules#readme",
+  "dependencies": {
+    "createbranch": "^1.0.3"
+  }
 }
