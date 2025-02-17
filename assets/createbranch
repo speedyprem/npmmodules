@@ -8,7 +8,7 @@ BRANCH="$1";
 if [[ ! "$BRANCH" =~ ^(?:revert-\d+-)?(?:fix|hotfix|feat|docs|style|refactor|perf|test)\/[A-Z]+-\d+-[a-zA-Z0-9-._]+$ ]]; then
     echo "Invalid branch name. It should follow the pattern <type>/<scope>-<description>"
     echo "Type: fix | hotfix | feat | docs | style | refactor | perf | test"
-    echo "Scope: UPPERCASE Project Key + Ticket Number (e.g., CNV-1027)"
+    echo "Scope: UPPERCASE Project Key + Ticket Number (e.g., CNV-123)"
     echo "Description: lowercase, hyphen-separated words"
     exit 1
 fi
